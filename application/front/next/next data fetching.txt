@@ -1,0 +1,3 @@
+
+
+getStaticProps ( static generation) : fe
