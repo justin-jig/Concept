@@ -1,0 +1,13 @@
+
+
+babel
+
+ESNext 
+
+@babel/preset-env : ES5+ 를 변환할 때 사용한다.
+@babel/preset-react : React 를 변환할 때 사용한다.
+@babel/preset-typescript : Typescript 를 변환할 때 사용한다.
+@babel/plugin-transform-runtime
+babel-polyfill
+
+source-map-loader

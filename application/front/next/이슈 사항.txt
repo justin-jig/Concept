@@ -1,0 +1,9 @@
+
+
+next.js swc, deno 이슈가 있음
+https://nextjs.org/docs/messages/failed-loading-swc
+
+
+https://dev2.rankingball.com:15001/api/v1/home/banner
+
+https://dev2.rankingball.com:15001/api/v1/home/banners

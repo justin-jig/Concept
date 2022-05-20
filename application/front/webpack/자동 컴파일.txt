@@ -1,0 +1,12 @@
+1. watch mode
+
+
+2. webpack-dev-server
+
+
+
+
+"scripts": {
+    "start": "webpack serve --mode development --open",
+    "build": "webpack --mode production",
+},
