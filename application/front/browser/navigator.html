@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>navigator</title>
+</head>
+<body>
+    
+    <h1> bluetooth </h1>
+    <button id="bluetoothRequestDevices">bluetoothRequestDevices</button>
+    <button id="bluetoothGetAvailability">bluetoothGetAvailability</button>
+
+    <h1> clipboard </h1>
+
+    <div id="clipboard-display"></div>
+    <button id="clipboardRead">clipboardRead</button>
+    <br/>
+    <svg  id="clipboard-svg" width="100" height="100">
+        <circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow"> </circle>
+    </svg>
+    <button id="clipboardWrite">clipboardWrite</button>
+
+    <br/><br/>
+    <span   id="clipboard-text" 
+            style="display: inline-block; vertical-align: middle; border: 1px solid #ccc; 
+            width: 175px; height: 20px; font-size: 12px;"></span>
+
+    <button id="clipboardReadText">clipboardReadText</button>
+
+    <br/>
+    <input type="text" id="clipboard-input"/>
+    <button id="clipboardWriteText">clipboardWriteText</button>
+    <br/><br/>
+
+    <h1> hid </h1>
+
+    <button id="hidgetDevices">hidgetDevices</button>
+    <button id="hidrequestDevice">hidrequestDevice</button>
+
+    <br/><br/>
+
+    <h1> mediaDevices </h1>
+
+    <button id="hidgetDevices">hidgetDevices</button>
+    <button id="hidrequestDevice">hidrequestDevice</button>
+
+
+
+    <script src="./navigator.js"></script>
+
+</body>
+</html>
